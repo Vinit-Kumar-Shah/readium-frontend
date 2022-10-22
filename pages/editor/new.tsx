@@ -1,3 +1,4 @@
+// These are the imported files
 import Router from "next/router";
 import React from "react";
 import useSWR from "swr";
@@ -14,7 +15,7 @@ const QuillNoSSRWrapper = dynamic(import("react-quill"), {
     ssr: false,
     loading: () => <p>Loading ...</p>,
 });
-
+// these are the modules
 const modules = {
     toolbar: [
         [{ header: "1" }, { header: "2" }, { font: [] }],
@@ -164,3 +165,4 @@ const PublishArticleEditor = () => {
 };
 
 export default PublishArticleEditor;
+// This is EOF

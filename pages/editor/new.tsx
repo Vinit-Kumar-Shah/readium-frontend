@@ -35,7 +35,7 @@ const modules = {
         matchVisual: false,
     },
 };
-
+// these are text formats
 const formats = [
     "header",
     "font",
